@@ -9,7 +9,6 @@
         body{
             display: flex;
             justify-content: center;
-            background-color: red;
         }
         .container{
             background-color: blue;
@@ -27,6 +26,7 @@
         .text{
             border: 1px solid black;
             border-radius: 5px;
+            margin-left: 5px;
         }
         h1{
             display: flex;
@@ -49,9 +49,9 @@
 <body>
     <div class="container">
             <h1>Találd ki a szót!</h1>
-            <div class="result">a</div>
+            <div class="result"></div>
             <input class="text" type="text"> 
-            <button> Ellenőrzés</button>
+            <button id="check"> Ellenőrzés</button>
             <div class="try">Próbálkozások száma:</div>
     </div>
     
