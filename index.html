@@ -5,8 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="main.js" type="module"></script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background-color: red;
+        }
+        .container{
+            background-color: blue;
+            width: 300px;
+            height: 300px;
+            
+        }
+        button{
+            margin-left: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+        }
+        .text{
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        .result{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        .try{
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
 </head>
 <body>
+    <div class="container">
+            <h1>Találd ki a szót!</h1>
+            <div class="result">a</div>
+            <input class="text" type="text"> 
+            <button> Ellenőrzés</button>
+            <div class="try">Próbálkozások száma:</div>
+    </div>
     
+
+
 </body>
 </html>
